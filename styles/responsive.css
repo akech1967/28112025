@@ -1,0 +1,14 @@
+@media(max-width:600px){
+    .bar{
+        display: block;
+        margin-right: 30px;
+        
+    }
+    .navigation{
+        display: none;
+    }
+    .header-container{
+        display: flex;
+        justify-content: end;
+    }
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(238, 238, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    
+    
+    margin-top: 60px;
+    background-color: white;
+}
+
+
+
+.navigation ul{
+    
+    display: flex;
+    justify-content:end;
+    padding-right: 40px;
+}
+
+.li-container{
+    
+    margin:20px;
+    font-size: 25px;
+}
+
+.fa-solid{
+    font-size: 50px;
+    align-items: center;
+    
+}
+
+.bar{
+    display: none;
+}
+
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+
+    padding: 50px;
+}
