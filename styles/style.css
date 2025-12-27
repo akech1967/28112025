@@ -1,46 +1,160 @@
-body{
-    background-color: rgb(238, 238, 246);
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color: rgb(238, 238, 246);
+  margin: 0;
+  padding: 0;
 }
 
-.header-container{
-    
-    
-    margin-top: 60px;
-    background-color: white;
+.header-container {
+  margin-top: 60px;
+  background-color: white;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+}
+
+.li-container {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.fa-solid {
+  font-size: 50px;
+  align-items: center;
+}
+
+.bar {
+  display: none;
+}
+
+.child {
+  width: 300px;
+  /* height: 250px; */
+  background-color: yellow;
+  border: 2px solid red;
+  margin: 5px;
+  box-shadow: 9px 9px 25px green;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
 
 
-.navigation ul{
+.text-first::first-line {
+  color: red;
+  font-size: 18px;
+}
+
+.text-first::first-letter {
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* ::selection{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: yellow;
+} */
+
+.image-container {
+  border: 2px solid red;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text2 {
+  font-family: 'ALK Life';
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-weight: 700;
+  color: white;
+}
+/* .text-first{
     
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 3px 3px rgb(149, 137, 137);
+} */
+/* სურათი ფონად */
+.bg-image {
+  background-image: url(https://i.guim.co.uk/img/media/514a959f1a84fed6033292480b1b20ba4ca58ec5/530_0_4011_3209/master/4011.jpg?width=620&dpr=1&s=none&crop=none);
+  /* background-image: url(../images/tower.jpg); */
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: block;
+  opacity: 0.5;
+}
+/* ტრანზიშენები */
+/* 
+.child {
+  position: relative;
+}
+
+.child::after {
+  content: ' ' ;
+  position: absolute;
+  height: 15px;
+  width: 0;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+  transition: all 3s ease-in-out;
+}
+
+.child:hover::after {
+  width: 100%;
+} */
+footer{
+    padding: 15px;
     display: flex;
-    justify-content:end;
-    padding-right: 40px;
-}
-
-.li-container{
+    justify-content: center;
     
-    margin:20px;
-    font-size: 25px;
 }
 
-.fa-solid{
+.fa-square-facebook{
+    color: blue;
+}
+
+.fa-brands{
     font-size: 50px;
-    align-items: center;
-    
+   
+}
+.fa-square-instagram{
+    color:brown;
+   
 }
 
-.bar{
-    display: none;
+.text-first{
+  font-family: "BBH Bartle", sans-serif;
 }
 
-
-
-
-
-
-
-
-
+.font-abs{
+  font-family: "Roboto", sans-serif;
+}
